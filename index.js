@@ -29,7 +29,7 @@ setInterval(() => {
 
 // --- DISCORD BOT BEÁLLÍTÁSA ---
 const DISCORD_TOKEN = process.env.DISCORD_TOKEN; 
-const LOG_CHANNEL_ID = process.env.LOG_CHANNEL_ID || '1459574891559780515'; 
+const LOG_CHANNEL_ID = process.env.LOG_CHANNEL_ID || '1461074532986257479'; 
 
 const client = new Client({ 
     intents: [
@@ -185,4 +185,5 @@ client.once(Events.ClientReady, () => {
 
 client.login(DISCORD_TOKEN);
 createMCBot();
+
 
