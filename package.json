@@ -1,0 +1,18 @@
+{
+  "name": "donutsmp-afk-bot",
+  "version": "1.0.0",
+  "description": "DonutSMP AFK shard farm bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.20.0",
+    "discord.js": "^14.14.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+
+}
+
